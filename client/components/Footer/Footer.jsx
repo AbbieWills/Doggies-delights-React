@@ -1,14 +1,28 @@
 import React from 'react';
 import './Footer.css';
-import lalizas from './lalizas.jpeg'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope  } from '@fortawesome/free-solid-svg-icons';
+library.add(faFacebook, faInstagram)
 
 
 const Footer = () => {
     return (
 <footer className='footer'>
     <div className='container'>
-       <a href='https://www.lalizas.com/' target='_blank'><img className="lalizas" src={lalizas} alt='lalizas-logo'/></a>
-    <p>© Copyright Kemps Maritime Services Ltd {new Date().getFullYear()} | Serviced with care &#128295; | Website by <a className='anchor' href="https://www.ddicecream.co.uk" target='_blank'>Abbie Wills</a></p>
+        <a href="https://www.facebook.com/DoggiesDelightsYorkshire/" target='_blank'>
+      <FontAwesomeIcon icon="fa-brands fa-facebook" className='icon' />
+      </a>
+      <a href="https://www.instagram.com/doggiesdelightsyorkshire/" target='_blank'>
+      <FontAwesomeIcon icon="fa-brands fa-instagram" className='icon' />
+      </a>
+      <a href="mailto: sales@ddicecream.co.uk" target='_blank'>
+      <FontAwesomeIcon icon={faEnvelope} className='icon'/>
+    </a>
+
+    <p className='love'>Made with love &#10084;</p>
+       <p> © Doggie's Delights {new Date().getFullYear()} | Website created Abbie Wills</p>
     </div>
     </footer> 
     );

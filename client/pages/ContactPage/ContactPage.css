@@ -2,16 +2,19 @@
   flex-direction: column;
   align-items: center;
   padding: 30px;
-  font-family: 'Maven Pro', sans-serif;
-  color: #245c93;
+  font-family: "Montserrat";
+  color: #000;
   font-size: 1.1rem;
+  background-color:#B8E8FC;
 }
 
-.address {
+.address, .popping, .delivery, .dates, .email {
   width: 88%;
   margin: 0 auto;
-  font-family: 'Maven Pro', sans-serif;
-  color: #245c93;
+  font-family: "Montserrat";
+  color: #000;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
 .contact-form h1 {
@@ -29,23 +32,22 @@
   width: 88%;
   padding: 50px 70px;
   border-radius: 10px;
-  background-color: #a0cdf7;
+  background-color: #f49090;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 20px;
-  border: 1.5px solid #245c93;
-
+  border: 1.5px solid #a0cdf7;
+  color: #fff;
 }
-
 
 .form label {
   font-weight: bold;
   margin-top: 10px;
-
+  margin-bottom: 10px;
 }
 
 .form input,
-.form textarea, #life-jacket-brand, #life-jacket-type {
+.form textarea {
   width: 100%;
   padding: 15px;
   margin-bottom: 15px !important;
@@ -54,7 +56,6 @@
   transition: border-color 0.3s ease-in-out;
   margin: 0 auto;
   color: #245c93;
-
 }
 
 .form input:focus,
@@ -67,21 +68,21 @@
 }
 
 .form button {
-  background-color: #41b4f3;
+  background-color: #06c27d;
   color: white !important;
-  border: none;
+  border: 1px solid #00000032;
   padding: 10px 15px;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-  width: 25%;
+  width: 20%;
   height: 50px !important;
   margin-top: 20px;
 }
 
 
 .form button:hover {
-  background-color: #245c93;
+  background-color: #029d3b;
 }
 
 
