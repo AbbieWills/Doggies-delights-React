@@ -1,27 +1,123 @@
 import React from 'react';
 import './AboutPage.css';
-import harryPhoto from './harry-photo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faDog, faBowlFood, faHeart, faSnowflake, } from "@fortawesome/free-solid-svg-icons";
 
 const AboutPage = () => {
 
   return (
     <>
-      <div className="about">
-        <h1>About Us</h1>
-        <div className='service-text'>
-          <div className='row'>
-          <p className='col-sm-12 col-md-12 col-lg-9 harry-intro'> Hello, I am Harry, a navigation officer currently serving on oil tankers, and proudly assuming the role of Director at Kemps Maritime Professional Services (KempsMPS). <br/><br/> My unwavering commitment revolves around the paramount importance of safety and its continuous enhancement within the maritime sector. Consequently, I have chosen to devote my time to ensuring that all life jackets serviced through KempsMPS adhere to the most stringent safety standards.
-          <br/><br/> Our approach hinges on the pillars of quality assurance, comprehensive staff training, and the utilisation of cutting-edge servicing equipment. </p> <img className="photoOfHarry" src={harryPhoto} alt='PhotoOfHarry'></img></div>
-          <div className='why-choose'>
-        <h2>Why Choose KempsMPS?</h2>
-          <p>
-          In an industry characterised by non-stop operations 24/7, 365 days a year, it is abundantly clear that efficiency and punctuality are of the essence. Regrettably, many approved service stations fail to align with the rigorous schedules inherent to the shipping sector. Moreover, securing an appointment for life jacket servicing with these stations can often entail waiting for weeks on end. <br/> <br/>It is my firm belief that such a situation is in dire need of change, and KempsMPS is committed to leading this transformation.
-          KempsMPS understands the challenges posed by the shipping industry's demanding timelines, and we have taken decisive steps to address them. We operate round the clock to ensure the prompt collection and servicing of your life jackets. Additionally, we are committed to providing you with a realistic timeframe for the completion of the servicing process. Our aspiration is to deliver service of the highest safety standards with an expedited turnaround time.
-                    <br/><br/> Leveraging my extensive experience in the maritime industry, I am determined to enhance the efficiency and safety of life jacket servicing. At KempsMPS, we blend maritime expertise with unwavering dedication to redefine industry standards and meet the evolving needs of our valued clients. </p>           </div>
+<div className='about'>
+<h3 className="tailtaste">What's in the tub</h3>
+  <div className="row">
+  <div className="col-7 about-ingredients">
+    <p className="about-ingredients">
+      Indulge your furry friends with our exceptional ice cream, carefully crafted to prioritize their health and happiness. Our recipe revolves around fat-free yogurt, ensuring that each delightful scoop is as nutritious as can be, boasting a mere 59 calories per tub! We understand that dogs cannot digest lactose, which is why our formula is meticulously lactose-free, guaranteeing only happy tummies here! <FontAwesomeIcon icon={faDog}/>
+      <br></br>
+      <br></br>
+      Prepare to treat your beloved companions to a tantalizing selection of flavours. Currently, we offer banana flavour, peanut butter flavour (both made with real bananas and peanuts) and now a new vanilla flavour! Rest assured, our ice cream is exclusively concocted from 100% natural ingredients, completely free from added preservatives, non-natrual sugars, or any nasties. We take pride in offering a guilt-free indulgence that radiates pure goodness. <FontAwesomeIcon icon={faHeart}/>
+      <br></br>
+      <br></br>
+      For optimal taste and texture, we recommend storing the ice cream in its frozen state at a chilly -18°C and consume within 5 months of purchase for optimal taste. Once defrosted, please consume within 3 days and do not refreeze. <FontAwesomeIcon icon={faSnowflake}/>
+      <br></br>
+      <br></br>
+      Please note that while the ice cream baseline is fat-free, peanut butter and bananas contain naturally occurring fats and sugars.  <FontAwesomeIcon icon={faBowlFood}/>
+      </p></div>
 
-          <p className='contact-link-text'><a className='contact-link' href='/contact'>Contact us</a> today to learn more about our services and how we can help you stay safe on the water.</p>
-        </div>
-      </div>
+
+  <table className="ingredients">
+  <div className="col-12 about-ingredients">
+  <th colspan="3"><h5>Ingredients</h5></th>
+  <tr>
+      <td><h5>Banana Flavour</h5></td>
+      <td><h5>Peanut Butter Flavour</h5></td>
+      <td><h5>Vanilla Flavour</h5></td>
+    </tr>
+    <tr>
+      <td>Fat-Free Yoghurt (Milk)</td>
+      <td>Fat-Free Yoghurt (Milk)</td>
+      <td>Fat-Free Yoghurt (Milk)</td>
+    </tr>
+    <tr>
+      <td>Fresh bananas</td>
+      <td>100% Peanut butter (Peanuts)</td>
+      <td>Vanilla Essence</td>
+    </tr>
+    <tr>
+      <td>Live cultures</td>
+      <td>Live cultures</td>
+      <td>Live cultures</td>
+    </tr>
+    <tr>
+      <td>Lactase Enzyme</td>
+      <td>Lactase Enzyme</td>
+      <td>Lactase Enzyme</td>
+    </tr>
+    </div>
+    
+  </table>
+  </div>
+
+  
+  <br></br>
+
+  <table className="nutrition">
+    <th colspan ="4"><h5>Nutrition</h5></th>
+    <tr>
+        <td><h5>Nutritional Value</h5></td>
+        <td><h5>Banana Flavour</h5></td>
+        <td><h5>Peanut Butter Flavour</h5></td>
+        <td><h5>Vanilla Flavour</h5></td>
+      </tr>
+      <tr>
+        <td>Energy</td>
+        <td>79kcal</td>
+        <td>85kcal</td>
+        <td>59kcal</td>
+      </tr>
+      <tr>
+        <td>Fat</td>
+        <td>0g</td>
+        <td>1.9g</td>
+        <td>0g</td>
+      </tr>
+      <tr>
+        <td>Carbohydrates</td>
+        <td>14.4g</td>
+        <td>10.8g</td>
+        <td>9.4g</td>
+      </tr>
+      <td>of which sugars</td>
+      <td>7.6g</td>
+      <td>5.9g</td>
+      <td>3.3g</td>
+      <tr>
+        <td>Protein</td>
+        <td>6.8g</td>
+        <td>10.7g</td>
+        <td>6.6g</td>
+      </tr>
+      <tr>
+        <td>Fibre</td>
+        <td>1.2g</td>
+        <td>2g</td>
+        <td>0.6g</td>
+      </tr>
+      <tr>
+        <td>Salt</td>
+        <td>0.18g</td>
+        <td>0.18g</td>
+        <td>0.18g</td>
+      </tr>
+      <tr>
+        <td>Calcium</td>
+        <td>0.16g</td>
+        <td>0.16g</td>
+        <td>0.16g</td>
+      </tr>
+    </table>
+
+    </div>
 
     </>
   );

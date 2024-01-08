@@ -124,21 +124,26 @@ body {
     text-align: center;
     padding: 2%;
     padding-top: 50px;
-  }
+}
 
-  .press-logo {
+.press h3 {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+}
+
+.press-logo {
     height: 200px;
     width: 200px;
     margin: 10px;
     border-radius: 10%;
-  }
+}
 
-  .press-logoCircle {
+.press-logoCircle {
     border-radius: 60%;
     height: 200px;
     width: 200px;
     margin: 10px;
-  }
+}
 
 
 /* Contact link */

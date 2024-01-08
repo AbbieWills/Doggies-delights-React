@@ -86,17 +86,39 @@ const HomePage = () => {
 <h3> In stock now at:</h3>
     <div class="container-fluid">
     <img class="press-logoCircle" src={pjs} alt="pjsLogo"></img>
+      <a href='https://www.ohmydogltd.co.uk/' target='_blank'>
     <img class="press-logoCircle" src={ohmydog} alt="OhMyDog"></img>
+      </a>
+      <a href='https://www.bustersqualityices.co.uk/' target='_blank'>
     <img class="press-logoCircle" src={busters} alt="PawfectlyRaw"></img>
+      </a>
+      <a href='https://www.facebook.com/p/Posh-Paws-Hull-100064249983037/' target='_blank'>
     <img class="press-logo" src={poshpaws} alt="PoshPawsLogo"></img>
+      </a>
+      <a href='https://www.facebook.com/micropiglongriston/' target='_blank'>
     <img class="press-logo" src={micropig} alt="MicropigLogo"></img>
+      </a>
+      <a href='https://www.thefarmshopyorkshire.co.uk/' target='_blank'>
     <img class="press-logo" src={farmshop} alt="FarmshopSkirlaugh"></img>
+      </a>
+      <a href='https://thedogsbakery.co.uk/' target='_blank'>
     <img class="press-logo" src={bakery} alt="BakeryLogo"></img>
+      </a>
+      <a href='https://www.facebook.com/slingsbys/' target='_blank'>
     <img class="press-logo" src={slingsbys} alt="SlingsLogo"></img>
+      </a>
+      <a href='https://www.sophiesbedandbreakfast.co.uk/cornershop' target='_blank'>
     <img class="press-logo" src={sophies} alt="SophiesLogo"></img>
+      </a>
+      <a href='https://www.facebook.com/people/The-Old-Post-Office-and-Tearooms/100093574080618/' target='_blank'>
     <img class="press-logo" src={tearoom} alt="TearoomLogo"></img>
+      </a>
+      <a href='https://www.facebook.com/WortleyFarmShop' target='_blank'>
     <img class="press-logo" src={wortley} alt="WortleyFarmShopLogo"></img>
+      </a>
+      <a href='https://www.warleycrosskennels.co.uk/' target='_blank'>
     <img class="press-logo" src={warley} alt="WarleyCrossLogo"></img>
+      </a>
 
 
 </div>

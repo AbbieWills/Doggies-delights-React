@@ -9,6 +9,8 @@ import springer from './photos/springer.png';
 import jackrussel from './photos/jackrussel.png';
 import blacklab from './photos/blacklab.png';
 import blackspringer from './photos/blackspringer.png';
+import lab from './photos/lab.png';
+import whippet from './photos/whippet.png';
 
 
 const TestimonialCarousel = () => {
@@ -16,6 +18,16 @@ const TestimonialCarousel = () => {
     <div>
     <h1 className="testimonial-title">What the dogs are saying</h1>
     <Carousel>
+    <Carousel.Item interval={3000}>
+        <h2 className="comment">"This is the best!🍦"</h2>
+        <img className="testimonial-img" src={whippet} alt="rockyPhoto" />
+        <p className="photo-desc">Melvin, North Yorkshire</p>
+      </Carousel.Item>
+    <Carousel.Item interval={3000}>
+        <h2 className="comment">"Yummies!"</h2>
+        <img className="testimonial-img" src={lab} alt="rockyPhoto" />
+        <p className="photo-desc">Baxter, North Yorkshire</p>
+      </Carousel.Item>
       <Carousel.Item interval={3000}>
         <h2 className="comment">"I looooove it ❤️"</h2>
         <img className="testimonial-img" src={rockyPhoto} alt="rockyPhoto" />
