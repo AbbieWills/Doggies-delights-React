@@ -4,7 +4,7 @@ import {
   HomePage,
   AboutPage,
   ContactPage,
-  ServicesPage,
+  MeetMaker,
   NotFoundPage
 } from "../pages";
 import NavbarComponent from ".././components/Navbar";
@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/meetthemaker" element={<MeetMaker />} />
         <Route path="*" element={<NotFoundPage/>} />
       </Routes>
         <Footer />

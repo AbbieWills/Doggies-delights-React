@@ -1,0 +1,37 @@
+.maker {
+    background-color: #f49090;
+    padding: 5%;
+    text-align: justify;
+    color: #fff;
+  }
+  
+  .name {
+    padding-bottom: 3%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .story {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 1%;
+  }
+  
+  .vinny-photo {
+    max-width: 55%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    place-items: center;
+    margin: 0 auto;
+  }
+  
+  .vinny-info {
+    text-align: center;
+    margin-left: auto;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+
+  }

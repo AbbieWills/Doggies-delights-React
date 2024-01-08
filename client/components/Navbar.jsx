@@ -40,7 +40,7 @@ const NavbarComponent = () => {
             <NavLink
                 className="nav-link"
                 activeclassname="active"
-                to="/services"
+                to="/meetthemaker"
               >
                 Meet The Maker
               </NavLink>  
