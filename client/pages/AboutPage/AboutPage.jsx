@@ -1,14 +1,15 @@
 import React from 'react';
 import './AboutPage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faDog, faBowlFood, faHeart, faSnowflake, } from "@fortawesome/free-solid-svg-icons";
+import {faDog, faBowlFood, faHeart, faSnowflake } from "@fortawesome/free-solid-svg-icons";
+import ContactLink from '../../components/Contact Link/contact';
 
 const AboutPage = () => {
 
   return (
-    <>
+<>
 <div className='about'>
-<h3 className="tailtaste">What's in the tub</h3>
+<h3 className="about-title">What's in the tub</h3>
   <div className="row">
   <div className="col-7 about-ingredients">
     <p className="about-ingredients">
@@ -26,7 +27,7 @@ const AboutPage = () => {
 
 
   <table className="ingredients">
-  <div className="col-12 about-ingredients">
+  <div className="col-12 ingredients-table">
   <th colspan="3"><h5>Ingredients</h5></th>
   <tr>
       <td><h5>Banana Flavour</h5></td>
@@ -58,13 +59,12 @@ const AboutPage = () => {
   </table>
   </div>
 
-  
   <br></br>
 
   <table className="nutrition">
-    <th colspan ="4"><h5>Nutrition</h5></th>
+    <th colspan ="4"><h5>Each Tub Contains:</h5></th>
     <tr>
-        <td><h5>Nutritional Value</h5></td>
+        <td><h5>Nutrition</h5></td>
         <td><h5>Banana Flavour</h5></td>
         <td><h5>Peanut Butter Flavour</h5></td>
         <td><h5>Vanilla Flavour</h5></td>
@@ -78,7 +78,7 @@ const AboutPage = () => {
       <tr>
         <td>Fat</td>
         <td>0g</td>
-        <td>1.9g</td>
+        <td>*1.9g</td>
         <td>0g</td>
       </tr>
       <tr>
@@ -88,8 +88,8 @@ const AboutPage = () => {
         <td>9.4g</td>
       </tr>
       <td>of which sugars</td>
-      <td>7.6g</td>
-      <td>5.9g</td>
+      <td>*7.6g</td>
+      <td>*5.9g</td>
       <td>3.3g</td>
       <tr>
         <td>Protein</td>
@@ -116,10 +116,10 @@ const AboutPage = () => {
         <td>0.16g</td>
       </tr>
     </table>
-
-    </div>
-
-    </>
+    <p className='fats'>*Peanuts and bananas contain natrually occuring sugars and/or fats</p>
+</div>
+    <ContactLink />
+</>
   );
 };
 

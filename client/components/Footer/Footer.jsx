@@ -22,7 +22,7 @@ const Footer = () => {
     </a>
 
     <p className='love'>Made with love &#10084;</p>
-       <p> © Doggie's Delights {new Date().getFullYear()} | Website created Abbie Wills</p>
+       <p> © Doggie's Delights {new Date().getFullYear()} | Website created by Abbie Wills</p>
     </div>
     </footer> 
     );

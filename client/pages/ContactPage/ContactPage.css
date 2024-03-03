@@ -1,29 +1,30 @@
-.contact-form {
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-  font-family: "Montserrat";
-  color: #000;
-  font-size: 1.1rem;
-  background-color:#B8E8FC;
-}
-
-.address, .popping, .delivery, .dates, .email {
+.contact-intro, .contact-title {
   width: 88%;
   margin: 0 auto;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #000;
   margin-bottom: 20px;
   text-align: justify;
 }
 
-.contact-form h1 {
-  font-size: 3rem !important;
+
+.contact-form {
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 1.1rem;
+  background-color:#B8E8FC;
+}
+
+.contact-title {
+  font-size: 3rem;
   margin-bottom: 30px !important;
   padding-top: 10px;
 }
 
-.contact-form p {
+.contact-intro  {
   font-size: 1.3rem;
 }
 
@@ -87,13 +88,17 @@
 
 
 @media (max-width: 768px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+  .contact-intro {
+    font-size: 1rem;
+  }
   .form {
     width: 100%;
     padding: 50px 20px;
   }
-
   .form button {
     width: 50%;
   }
-  
 }

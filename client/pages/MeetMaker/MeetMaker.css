@@ -5,16 +5,16 @@
     color: #fff;
   }
   
-  .name {
+  .maker-title {
     padding-bottom: 3%;
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
   }
 
   .story {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: "Montserrat", sans-serif;
     padding-bottom: 1%;
   }
@@ -26,6 +26,7 @@
     display: block;
     place-items: center;
     margin: 0 auto;
+    padding-bottom: 20px;
   }
   
   .vinny-info {
@@ -33,5 +34,16 @@
     margin-left: auto;
     color: #fff;
     font-family: "Montserrat", sans-serif;
-
+    margin-bottom: -15px;
   }
+
+
+  @media (max-width: 768px) {
+    .maker-title {
+      font-size: 2rem;
+    }
+    .story {
+      font-size: 1rem;
+    }
+  }
+

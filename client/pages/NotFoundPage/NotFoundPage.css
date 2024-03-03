@@ -3,26 +3,20 @@
     font-weight: 700;
     margin: 40px 0 30px 0;
     text-align: center;
-    font-family: 'Maven Pro', sans-serif !important;
-    color: #245c93;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #000;
 }
 
 .notFound {
     text-align: center;
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 1.3rem;   
-    color: #245c93;
-
-
-
+    color: #000;
 }
 
-.binoculas {
-    font-size: 2.5rem;
-}
 
 .homeButton {
-    background-color: #0aa2f3;
+    background-color: #f49090;
     color: white !important;
     border: none;
     padding: 10px 15px;
@@ -36,7 +30,7 @@
 }
 
 .homeButton:hover {
-    background-color: #245c93;
+    background-color: #f49090c0;
 }
 
 .lost {
@@ -45,4 +39,20 @@
     display: block;
     margin-bottom: 40px !important;
     width: 40%;
+}
+
+@media (max-width: 768px) {
+    .notFoundTitle {
+        font-size: 2rem;
+    }
+    .notFound {
+        font-size: 1rem;
+    }
+    .homeButton {
+        width: 40%;
+        font-size: 1rem !important;
+    }
+    .lost {
+        width: 60%;
+    }
 }

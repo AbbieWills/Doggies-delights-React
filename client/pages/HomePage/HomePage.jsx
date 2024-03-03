@@ -18,11 +18,13 @@ import pjs from './photos/pjs.png';
 import ohmydog from './photos/ohmydog.png';
 import wortley from './photos/wortley.png';
 import warley from './photos/warley.png';
+import ContactLink from '../../components/Contact Link/contact.jsx';
 
 
 
 const HomePage = () => {
   return (
+    <>
       <div className="row intro-explain-container">
         <div>
           <div className='row'>
@@ -119,17 +121,13 @@ const HomePage = () => {
       <a href='https://www.warleycrosskennels.co.uk/' target='_blank'>
     <img class="press-logo" src={warley} alt="WarleyCrossLogo"></img>
       </a>
-
-
 </div>
 </div>
+      </div>
+      </div>
+      <ContactLink/>
 
-      </div>
-      <h1 className='contact-link-text'>Get tails wagging today!</h1>
-      <a href="/contact" className="contact">
-      <h1 className="contact-link"> Enquire <FontAwesomeIcon icon={faIceCream} size="3x" className="faicecream"/></h1>
-      </a>
-      </div>
+    </>
   )
 }
 

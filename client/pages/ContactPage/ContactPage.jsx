@@ -6,7 +6,6 @@ const ContactForm = () => {
     firstname: '',
     lastname: '',
     business: '',
-    location: '',
     email: '',
     subject: '',
   });
@@ -17,14 +16,13 @@ const ContactForm = () => {
   };
 
   const composeMailTo = () => {
-    const { firstname, lastname, business, location, email, subject } = formData;
+    const { firstname, lastname, business, email, subject } = formData;
 
     // Compose the mailto URL
     const mailto = `mailto:sales@ddicecream.co.uk?subject=${encodeURIComponent("New Ice Cream Enquiry")}&body=
     First Name: ${encodeURIComponent(firstname)}
     Last Name: ${encodeURIComponent(lastname)}
     Business: ${encodeURIComponent(business)}
-    Location: ${encodeURIComponent(location)}
     Email: ${encodeURIComponent(email)}
     Subject: ${encodeURIComponent(subject)}
     `;
@@ -35,22 +33,15 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form">
-      <h1 className="address">Get in touch</h1>
+      <h1 className="contact-title">Get in touch</h1>
       <div>
-      <p className="address">
-        Originating from the charming town of Harrogate, we are thrilled to announce our expansion across the picturesque landscapes of East Yorkshire, UK.
-        </p>
-      <p className='popping'>
-        Doggie's Delights is now popping up in various locations throughout the region, bringing joy and wholesome treats to our furry friends.
-        </p>
-      <p className="delivery">
-        To indulge in our delectable ice cream and secure a spot on our delivery route around Yorkshire simply get in touch with us.
-        We have exciting news for you - there is no minimum order requirement! </p>
-      <p className="dates">
-        Whether you're seeking a single tub or a grand feast for your four-legged companions, we are here to cater to your needs. 
-        To streamline the delivery process and ensure a seamless experience, kindly specify a selection of dates and times during which you will be available to accept the order. This allows us to coordinate the delivery with utmost precision and deliver your delightful package right to your dogs bowl.
-        </p>
-        <p className="email">
+      <p className="contact-intro">
+        Originating from the charming town of Harrogate, we are thrilled to announce our expansion across the picturesque landscapes of East Yorkshire, UK. <br /> <br />
+        Doggie's Delights is now popping up in various locations throughout the region, bringing joy and wholesome treats to our furry friends. <br /> <br />
+        To indulge in our delectable ice cream and secure a spot on our delivery route around Yorkshire simply get in touch with us. <br /> <br />
+        We have exciting news for you - there is no minimum order requirement!  <br /> <br />
+        Whether you're seeking a single tub or a grand feast for your four-legged companions, we are here to cater to your needs. <br /> <br />
+        To streamline the delivery process and ensure a seamless experience, kindly specify a selection of dates and times during which you will be available to accept the order. This allows us to coordinate the delivery with utmost precision and deliver your delightful package right to your dogs bowl. <br /> <br />
         sales@ddicecream.co.uk
       </p>
       </div>
