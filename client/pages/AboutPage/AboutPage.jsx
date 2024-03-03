@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutPage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faDog, faBowlFood, faHeart, faSnowflake } from "@fortawesome/free-solid-svg-icons";
-import ContactLink from '../../components/Contact Link/contact';
+// import ContactLink from '../../components/Contact Link/contact';
 
 const AboutPage = () => {
 
@@ -118,7 +118,7 @@ const AboutPage = () => {
     </table>
     <p className='fats'>*Peanuts and bananas contain natrually occuring sugars and/or fats</p>
 </div>
-    <ContactLink />
+    {/* <ContactLink /> */}
 </>
   );
 };
