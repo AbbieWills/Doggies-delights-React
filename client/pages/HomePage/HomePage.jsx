@@ -18,8 +18,7 @@ import pjs from './photos/pjs.png';
 import ohmydog from './photos/ohmydog.png';
 import wortley from './photos/wortley.png';
 import warley from './photos/warley.png';
-// import ContactLink from '../../components/Contact Link/contact.jsx';
-import Contact from '../../components/Contact2.0/index.jsx';
+import Contact from '../../components/Contact/Contact.jsx';
 
 
 
@@ -125,7 +124,6 @@ const HomePage = () => {
 </div>
       </div>
       <Contact/>
-
     </>
   )
 }
