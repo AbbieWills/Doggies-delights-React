@@ -18,7 +18,8 @@ import pjs from './photos/pjs.png';
 import ohmydog from './photos/ohmydog.png';
 import wortley from './photos/wortley.png';
 import warley from './photos/warley.png';
-import ContactLink from '../../components/Contact Link/contact.jsx';
+// import ContactLink from '../../components/Contact Link/contact.jsx';
+import Contact from '../../components/Contact2.0/index.jsx';
 
 
 
@@ -85,46 +86,45 @@ const HomePage = () => {
 
 <div className='press'>
 <h3> In stock now at:</h3>
-    <div class="container-fluid">
-    <img class="press-logoCircle" src={pjs} alt="pjsLogo"></img>
+    <div className="container-fluid">
+    <img className="press-logoCircle" src={pjs} alt="pjsLogo"></img>
       <a href='https://thatdogshop.co.uk/' target='_blank'>
-    <img class="press-logoCircle" src={ohmydog} alt="OhMyDog"></img>
+    <img className="press-logoCircle" src={ohmydog} alt="OhMyDog"></img>
       </a>
       <a href='https://www.bustersqualityices.co.uk/' target='_blank'>
-    <img class="press-logoCircle" src={busters} alt="PawfectlyRaw"></img>
+    <img className="press-logoCircle" src={busters} alt="PawfectlyRaw"></img>
       </a>
       <a href='https://www.facebook.com/p/Posh-Paws-Hull-100064249983037/' target='_blank'>
-    <img class="press-logo" src={poshpaws} alt="PoshPawsLogo"></img>
+    <img className="press-logo" src={poshpaws} alt="PoshPawsLogo"></img>
       </a>
       <a href='https://www.facebook.com/micropiglongriston/' target='_blank'>
-    <img class="press-logo" src={micropig} alt="MicropigLogo"></img>
+    <img className="press-logo" src={micropig} alt="MicropigLogo"></img>
       </a>
       <a href='https://www.thefarmshopyorkshire.co.uk/' target='_blank'>
-    <img class="press-logo" src={farmshop} alt="FarmshopSkirlaugh"></img>
+    <img className="press-logo" src={farmshop} alt="FarmshopSkirlaugh"></img>
       </a>
       <a href='https://thedogsbakery.co.uk/' target='_blank'>
-    <img class="press-logo" src={bakery} alt="BakeryLogo"></img>
+    <img className="press-logo" src={bakery} alt="BakeryLogo"></img>
       </a>
       <a href='https://www.facebook.com/slingsbys/' target='_blank'>
-    <img class="press-logo" src={slingsbys} alt="SlingsLogo"></img>
+    <img className="press-logo" src={slingsbys} alt="SlingsLogo"></img>
       </a>
       <a href='https://www.sophiesbedandbreakfast.co.uk/cornershop' target='_blank'>
-    <img class="press-logo" src={sophies} alt="SophiesLogo"></img>
+    <img className="press-logo" src={sophies} alt="SophiesLogo"></img>
       </a>
       <a href='https://www.facebook.com/people/The-Old-Post-Office-and-Tearooms/100093574080618/' target='_blank'>
-    <img class="press-logo" src={tearoom} alt="TearoomLogo"></img>
+    <img className="press-logo" src={tearoom} alt="TearoomLogo"></img>
       </a>
       <a href='https://www.facebook.com/WortleyFarmShop' target='_blank'>
-    <img class="press-logo" src={wortley} alt="WortleyFarmShopLogo"></img>
+    <img className="press-logo" src={wortley} alt="WortleyFarmShopLogo"></img>
       </a>
       <a href='https://www.warleycrosskennels.co.uk/' target='_blank'>
-    <img class="press-logo" src={warley} alt="WarleyCrossLogo"></img>
+    <img className="press-logo" src={warley} alt="WarleyCrossLogo"></img>
       </a>
 </div>
-<ContactLink/>
-
 </div>
       </div>
+      <Contact/>
 
     </>
   )

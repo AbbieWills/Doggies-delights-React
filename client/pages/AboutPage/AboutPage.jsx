@@ -23,7 +23,8 @@ const AboutPage = () => {
       <br></br>
       <br></br>
       Please note that while the ice cream baseline is fat-free, peanut butter and bananas contain naturally occurring fats and sugars.  <FontAwesomeIcon icon={faBowlFood}/>
-      </p></div>
+      </p>
+      </div>
 
 
   <table className="ingredients">
