@@ -26,19 +26,18 @@ const HomePage = () => {
   return (
     <>
       <div className="row intro-explain-container">
-        <div>
-          <div className='row'>
-            <div className='col-lg-6'>
-          <h1 className='intro'>Lactose and Fat-Free <br></br> Dog Ice Cream </h1>
-          <h2 className='flavours'>Now available in Peanut Butter, Banana, and Vanilla flavour!</h2>
-            <a href="/contact" className="shop-button">
+            <div className='col-lg-6 col-md-12 col-sm-12'>
+          <h1 className='intro'>Lactose and Fat-Free <br /> Dog Ice Cream </h1>
+          <h2 className='flavours'>Now available in Peanut Butter, Banana, and Vanilla flavour!
+          <a href="/contact" className="shop-button">
           <h1 className="enquire"> Enquire <FontAwesomeIcon icon={faIceCream} size="3x" className="faicecream"/></h1>
             </a>
+          </h2>
+           
             </div>
-      <div className='col-lg-6'>
+      <div className='col-lg-6 col-md-12 col-sm-12'>
         <div className='intro-image'>
-          <img className='intro-image' src={icecreamtitle} alt='ice cream'></img>
-        </div>
+          <img className='intro-image-img' src={icecreamtitle} alt='ice cream'></img>
         </div>
         </div>
           <div className='explain'>
@@ -123,7 +122,6 @@ const HomePage = () => {
       </a>
 </div>
 </div>
-      </div>
       </div>
       {/* <ContactLink/> */}
 

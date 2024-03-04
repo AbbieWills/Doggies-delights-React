@@ -9,14 +9,13 @@ body {
 
 /* Title text */
 
-
 .intro {
     padding: 30px 50px 30px 50px;
     margin-left: 18rem;
     font-size: 3.4rem;
     text-align: center;
     color: #3d3d3d; 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .flavours {
@@ -25,61 +24,72 @@ body {
     font-size: 1.6rem;
     text-align: center;
     color: #3d3d3d; 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
 }
 
 .enquire, .shop-button {
     font-size: 1.5rem;
-    color: #000;
-    font-family: "ubuntu";
+    color: #3d3d3d;
+    font-family: "Ubuntu", sans-serif;
     padding: 10px 0 10px 0;
-    margin-left: 20rem !important;
     background-color: #fff;
     border-radius: 10px;
-    text-align: center;
     text-decoration: none;
     width: 60%;
-
+    margin: 0 auto;
+    margin-top: 4rem;
 }
+
 .faicecream {
     font-size: 1.5rem;
 }
 
-.intro-image {
-    width: 80%;
-    height: auto;
+.intro-image-img {
+    width: 67%;
     display: block;
-    margin-top: -15rem;
+    bottom: 0;
+    height: auto; 
+    margin: -16rem auto auto auto;
 }
 
 /* Intro text */
-.explain {
+.explain h2, .explain p {
     background-color: #f49090;
-    padding: 5% !important;
+    color: #fff;
     position: relative;
     text-align: justify;
-    font-family: "Montserrat";
-    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
 }
 
-.explain p {
-    color: #fff;
+.explain {
+    background-color: #f49090;
 }
 
 .explain h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 2.5rem;
+    padding: 4rem 4rem 0 4rem;
+    margin-left: -25px;
+
+}
+
+.explain p {
+    font-size: 1.3rem;
     color: #fff;
+    padding:  3rem;
+}
+
+.col-lg-3 {
+    position: relative;
+    height: auto;
 }
 
 .cowphoto {
-    position: absolute; top: 3mm;
-    right: -0.08%;
-    width: auto;
-    display: block;
-    height: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 400px; 
     overflow: hidden;
 }
 
@@ -108,7 +118,7 @@ body {
   }
 
 .features {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     color: #000;
     background-color: #fff;
@@ -125,7 +135,7 @@ body {
 }
 
 .press h3 {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     padding-bottom: 12px;
 }
 
@@ -150,7 +160,7 @@ body {
     margin: 40px;
     font-size: 2.1rem !important;
     color: #000;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     padding-top: 30px;
 } 
 
@@ -174,59 +184,181 @@ body {
 
 
 /* Screen size media queries */
-
-@media (max-width: 2000px) {
-    .explain {
-        padding: 15px;
+@media screen and (max-width: 390px) {
+    .intro-image-img {
+        width: 40% !important;
+        margin-top: -5rem !important;
     }
-}
-
-@media screen and (max-width: 1440) {
+    .intro, .flavours {
+        margin-left: 0;
+        text-align: center;
+    }
+    .faicecream {
+        font-size: 1rem;
+    }
     .intro {
-        font-size: 2.5rem;
-        /* width: 100%;
-        margin-left: 0; */
+        font-size: 2rem;       
     }
-}
-
-@media screen (max-width: 1150px) {
-    .intro {
-        font-size: 2rem;
-    }
-    .explain {
+    .flavours {
         font-size: 1.3rem;
-        padding: 20px;
+    }
+    .enquire, .shop-button {
+        font-size: 1rem;
+        width: 40%;
+        margin-top: 2rem;
+    }
+    .cowphoto {
+        display: none;
     }
     .features {
+        font-size: 1.3rem;
+    }
+    .explain h2 {
+        font-size: 2rem;
+        padding: 2rem 2rem 0 3rem;
+        text-align: left;
+    }
+    .explain p {
+        font-size: 1.3rem;
+        padding:  2rem;
+        text-align: left;
+    }
+    .cowphoto {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width: 640px) {
+    .intro-image-img {
+        width: 40% !important;
+        margin-top: -5rem !important;
+    }
+    .intro, .flavours {
+        margin-left: 0;
+        text-align: center;
+    }
+    .faicecream {
+        font-size: 1rem;
+    }
+    .intro {
+        font-size: 2rem;       
+    }
+    .flavours {
+        font-size: 1.3rem;
+    }
+    .enquire, .shop-button {
+        font-size: 1rem;
+        width: 40%;
+        margin-top: 2rem;
+    }
+    .cowphoto {
+        display: none;
+    }
+    .explain h2 {
+        font-size: 2rem;
+        padding: 2rem 2rem 0 3rem;
+    }
+    .explain p {
+        font-size: 1.3rem;
+        padding:  2rem;
+    }
+    .features {
+        font-size: 1.3rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 991px) {
+    .cowphoto {
+        display: none;
+    }
+    .intro, .flavours {
+        width: 80% !important;   
+        margin-left: 6rem;
+        text-align: center;
+    }
+    .flavours {
+        font-size: 1.4rem;
+    }
+    .intro {
+        font-size: 2.5rem;       
+    }
+    .intro-image-img {
+        width: 45% !important;
+        margin-top: -10rem !important; 
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1149px) {
+    .intro, .flavours {
+        width: 100%;   
+        margin: 0 auto; 
+        margin-left: 6rem;
+    }
+    .flavours {
+        font-size: 1.4rem;
+    }
+    .intro {
+        font-size: 2.5rem;       
+    }
+    .intro-image-img {
+        width: 80%;
+        margin-top: -8rem !important;
+    }
+    .enquire, .shop-button {
         font-size: 1.2rem;
+        width: 40%;
+        margin-top: 2rem;
     }
-    .mb-3 {
-        font-size: 2.5rem;
-    }
-    .iconTitle {
-        font-size: 1.6rem;
-    }
-}
-
-@media screen and (max-width: 994px) {
     .cowphoto {
-      display: none;
-    }
-  } 
-
-@media screen and (max-width: 1440px) {
-    .cowphoto {
-        width: 33%;
-        height: 100%;
-        margin-bottom: -1000px;
-        
+        height: 400px;
+        width: 350px;
+        margin-left: -30px;
     }
 }
 
-@media screen and (max-width: 1440px) {
-    .intro-image img {
-        margin-top: 300px;
-        width: 100%;
-        
+@media screen and (min-width: 1150px) and (max-width: 1500px) {
+    .intro, .flavours {
+        width: 100%;   
+        margin: 0 auto; 
+        margin-left: 6rem;
+    }
+    .flavours {
+        font-size: 1.4rem;
+    }
+    .intro {
+        font-size: 2.5rem;       
+    }
+    .intro-image-img {
+        width: 67%;
+        margin-top: -8rem;
     }
 }
+
+@media screen and (min-width: 1501px) and (max-width: 1700px) {
+    .intro, .flavours {
+        width: 100%;   
+        margin: 0 auto; 
+        margin-left: 6rem;
+    }
+    .flavours {
+        font-size: 1.4rem;
+    }
+    .intro {
+        font-size: 2.5rem;       
+    }
+    .intro-image-img {
+        width: 60%;
+        margin-top: -10rem;
+    }
+    .enquire, .shop-button {
+        font-size: 1.2rem;
+        width: 40%;
+        margin-top: 2rem;
+    }
+}
+
+

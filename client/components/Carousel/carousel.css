@@ -34,3 +34,22 @@
   padding-top: 2rem;
   font-family: "Montserrat";
 }
+
+@media screen and (max-width: 640px) {
+  .testimonial-img {
+    width: 300px !important;
+    max-height: 300px!important;
+  }
+  .testimonial-title {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .comment {
+    font-size: 1.3rem !important;
+    margin-bottom: 1rem;
+  }
+  .photo-desc {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+}

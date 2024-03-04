@@ -9,6 +9,7 @@
   padding-bottom: 2%;
   text-align: left;
   font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .about-ingredients {
@@ -31,6 +32,7 @@
   margin-left: 13px;
 }
 
+
 .nutrition {
   font-family: "Montserrat", sans-serif;
   width: 100%;
@@ -40,13 +42,13 @@
 
 td {
   border: 1px solid;
-  padding: 12px;
+  padding: 20px;
   text-align: left;
 }
 
 th {
   border: 1px solid;
-  padding: 12px;
+  padding: 20px;
   text-align: center;
 }
 
