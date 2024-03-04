@@ -11,7 +11,7 @@ html {
 }
 
 .nav-link {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 1.4rem;
     color: #000 !important;
     margin: 30px 20px 0 40px;
@@ -27,7 +27,7 @@ html {
 
 /* Navbar Brand Styles */
 .navbar-brand {
-    font-family: "Ubuntu";
+    font-family: "Ubuntu", sans-serif;
     font-size: 3rem;
     font-weight: bold;
     color: #f49090; 
@@ -60,11 +60,21 @@ html {
 /* Media Queries */
 @media (max-width: 480px) {
     .navbar-brand {
-        font-size: 0.9rem !important;
+        font-size: 1.5rem !important;
         margin: 0 auto !important;
+    }
+    .navbar-toggler {
+        margin: 0 auto !important;
+        margin-top: 20px !important;
     }
 }
 
+@media (max-width: 991px) {
+    .navbar-toggler {
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+}
 
 @media (max-width: 1350px) {
     .navbar-brand {
@@ -74,16 +84,9 @@ html {
         font-size: 1.7rem;
     }
     .nav-keys {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .nav-link {
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 991px) {
-    .navbar-toggler {
-        margin-top: 30px;
-        margin-right: 100px;
+        font-size: 1.2rem;
     }
 }
