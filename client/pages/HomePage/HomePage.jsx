@@ -3,6 +3,7 @@ import './homepage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIceCream, faPaw, faCircleCheck, faHeart  } from '@fortawesome/free-solid-svg-icons';
 import Carousel from '../../components/Carousel/carousel.jsx';
+import Contact from '../../components/Contact/Contact.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import icecreamtitle from './photos/icecreamtitle.png';
 import cowphoto from './photos/cowphoto.png';
@@ -18,7 +19,6 @@ import pjs from './photos/pjs.png';
 import ohmydog from './photos/ohmydog.png';
 import wortley from './photos/wortley.png';
 import warley from './photos/warley.png';
-import Contact from '../../components/Contact/Contact.jsx';
 
 
 
