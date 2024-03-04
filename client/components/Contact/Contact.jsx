@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Contact/contact.css';
+import './contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIceCream } from '@fortawesome/free-solid-svg-icons';
 
