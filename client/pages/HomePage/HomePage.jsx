@@ -18,7 +18,7 @@ import pjs from './photos/pjs.png';
 import ohmydog from './photos/ohmydog.png';
 import wortley from './photos/wortley.png';
 import warley from './photos/warley.png';
-// import ContactLink from '../../components/Contact Link/contact.jsx';
+import ContactLink from '../../components/Contact Link/contact.jsx';
 
 
 
@@ -121,9 +121,10 @@ const HomePage = () => {
     <img class="press-logo" src={warley} alt="WarleyCrossLogo"></img>
       </a>
 </div>
+<ContactLink/>
+
 </div>
       </div>
-      {/* <ContactLink/> */}
 
     </>
   )
