@@ -18,7 +18,7 @@ import pjs from './photos/pjs.png';
 import ohmydog from './photos/ohmydog.png';
 import wortley from './photos/wortley.png';
 import warley from './photos/warley.png';
-// import ContactLink from '../../components/Contact Link/contact.jsx';
+import ContactLink from '../../components/Contact Link/contact.jsx';
 
 
 
@@ -87,7 +87,7 @@ const HomePage = () => {
 <h3> In stock now at:</h3>
     <div class="container-fluid">
     <img class="press-logoCircle" src={pjs} alt="pjsLogo"></img>
-      <a href='https://www.ohmydogltd.co.uk/' target='_blank'>
+      <a href='https://thatdogshop.co.uk/' target='_blank'>
     <img class="press-logoCircle" src={ohmydog} alt="OhMyDog"></img>
       </a>
       <a href='https://www.bustersqualityices.co.uk/' target='_blank'>
@@ -123,7 +123,7 @@ const HomePage = () => {
 </div>
 </div>
       </div>
-      {/* <ContactLink/> */}
+      <ContactLink/>
 
     </>
   )
