@@ -4,7 +4,7 @@ import vinny from './vinny.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faIceCream  } from '@fortawesome/free-solid-svg-icons';
-// import ContactLink from '../../components/Contact Link/contact';
+import Contact from '../../components/Contact/Contact.jsx';
 
 
 
@@ -28,7 +28,7 @@ const MeetMaker = () => {
         </div>
         </div>
         </div>
-        {/* <ContactLink /> */}
+        <Contact />
 
 </>
   );
