@@ -1,17 +1,18 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
+import './contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faIceCream } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
     return (
-        <div className="contact">
-        <h1>Contact Us</h1>
-        <p>
-            If you have any questions or would like to enquire about our products,
-            please feel free to contact us via the form below or by emailing us at
-            dd @doggiesdelights.co.uk
-        </p>
-        </div>
-    )
+    <>
+        <h1 className='contact-link-text'>Get tails wagging today!</h1>
+        <a href="/contact" className="contact">
+        <h1 className="contact-link"> Enquire <FontAwesomeIcon icon={faIceCream} size="3x" className="faicecream"/></h1>
+        </a>
+    </>
+)
+
 }
 
-export default Contact;
+export default Contact
