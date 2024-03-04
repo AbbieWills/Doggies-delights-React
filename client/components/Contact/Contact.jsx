@@ -1,5 +1,5 @@
 import React from 'react';
-// import 'components/Contact/Contact.css';
+import "./Contact.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faIceCream } from '@fortawesome/free-solid-svg-icons';
 
@@ -13,7 +13,6 @@ const Contact = () => {
         </a>
     </div>
 </div>
-
     );
 }
 

@@ -34,9 +34,10 @@ html {
     padding-top: 30px;
 }
 
-.navbar-brand active {
-    color: #fff !important
-
+.navbar-brand:focus,
+.navbar-brand:active {
+    color: #f49090; /* Set the desired color */
+    outline: none; /* Remove the default focus outline */
 }
 
 .navbar-brand:hover {
