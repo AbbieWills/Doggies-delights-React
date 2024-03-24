@@ -42,10 +42,10 @@ const ContactForm = () => {
         We have exciting news for you - there is no minimum order requirement!  <br /> <br />
         Whether you're seeking a single tub or a grand feast for your four-legged companions, we are here to cater to your needs. <br /> <br />
         To streamline the delivery process and ensure a seamless experience, kindly specify a selection of dates and times during which you will be available to accept the order. This allows us to coordinate the delivery with utmost precision and deliver your delightful package right to your dogs bowl. <br /> <br />
-        sales@ddicecream.co.uk
+        Email Abbie at: sales@ddicecream.com
       </p>
       </div>
-      <form className='form' onSubmit={composeMailTo}>
+      {/* <form className='form' onSubmit={composeMailTo}>
         <div className="row">
           <div className="col-md-6">
             <label htmlFor="fname">First Name</label>
@@ -73,7 +73,7 @@ const ContactForm = () => {
         </div>
         </div>
         <button id="submit" className="submit" type="submit" value="Submit">Submit</button>
-      </form>
+      </form> */}
     </div>
   );
 };
